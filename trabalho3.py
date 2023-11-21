@@ -19,7 +19,7 @@ class ControleSenha:
         with open(self.arquivo_senhasdig, "r") as file:
             linhas = file.readlines()
             for linha in linhas:
-                print(linha + '\n')
+                print(linha)
 
     def fazer_login(self, senha):
         with open(self.arquivo_senhas, "r") as file:
